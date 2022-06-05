@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+:root
+{
+    --orange: #F46A06;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    color:#555;
+    font-size: 22px;
+    line-height: 29px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--orange);
+}
+.container{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.containers{
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 130px;
+}
+.containers h1 ,p{
+    text-align: center;
+}
+.containers h1{
+    color:#000000;
+}
+.containers p{
+    color:#555555;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 28px;
+    width:790px;
+    height:84px;
+    margin-left: 170px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display:inline;
+    padding: 10px;
+}
+.logo span{
+  color: var(--orange);
+}
+.header{
+    padding:22px;
+}
+.logo{
+    font-family:'Quicksand', sans-serif ;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    flex-grow: 1;
+}
+.btn{
+    background-color: var(--orange);
+    padding:15px;
+    color:#fff;
+}
+    
+.m-50{
+    margin-left: 67px;
+}
+.banner h1{
+    font-style: bold;
+    font-size: 48px;
+    line-height: 50px;
+}
+.banner p{
+    padding:20px 0;
+    margin-bottom: 20px;
+}
+.banner-left{
+    flex-basis: 50%;
+}
+.banner-right{
+    flex-basis: 45%;
+    margin-top: 30px;
+}
+.btn-white{
+    color:black;
+    background: #fff;
+    box-shadow: 3px 1px 4px 3px #000;
+    margin-left: 40px;
+}
+.counter{
+    background: #F46A06;
+    color:#fff;
+    padding:10px;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}
+.counter h1{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.text-right{
+    text-align: left;
+}
+.counter h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    font-style: bold;
+}
+.banner2{
+    margin-left: 40px;
+}
+ .right p{
+    font-family: 'Roboto Slab', serif;
+    font-style:normal;
+    font-size:18px;
+    line-height:24px;
+}
+.bottomimage{
+    position: relative;
+    z-index: 1;
+}
+.topimage{
+    position:absolute;
+    z-index: 2;
+    left: 67%;
+    top:135%;
+}
+ul {
+    list-style: none;
+  }
+  
+  .third ul li:before {
+    content: '✓';
+    color:#F46A06;
+    padding-right: 10px;
+  }
+  .third p{
+      margin-right: 30px;
+      font-family: 'Roboto Slab', serif;
+      font-style:normal;
+      font-size:18px;
+      line-height:24px;
+  }
+
+   .bck{
+      background-image: url("../img/banner4.png");
+      background-attachment: fixed;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      height:400px;
+  }
+  .bck span h1{
+    color: var(--orange);
+    text-align: center;
+    margin:50px 200px 0px 200px;
+    font-size: 35px;
+  }
+  .bck span p{
+    text-align: center;
+    margin:0px 200px 50px 200px;
+    color:#fff;
+  }
+  .four{
+      margin-left: 480px;
+  }
+  .abc{
+      margin-top: 70px;
+  }
+.abc img{
+    margin-bottom: 20px;
+}
+.abc span{
+    color: #F46A06;
+    padding-right: 10px;
+}
+.abc p{
+    display: flex;
+}
+.box{
+    margin:auto;
+    background-color: #F46A06;
+    color:#fff;
+    margin-top: 150px;
+    max-width: 1170px;
+    height:600px;
+    text-align: center;
+    padding:50px;
+}
+.centerbox{
+ margin: auto;
+ width:900px;
+ height:300px;
+ border-radius:10px;
+ background-color: #fff;
+ margin-top: 100px;
+ margin-bottom: 30px;
+
+}
+.centerbox h5{
+  color:rgba(17, 17, 17, 1);
+  width:650px;
+  height:30px;
+  text-align:inherit;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.centerbox {
+color:#F46A06;
+  }
+.centerbox img{
+    margin-top: 30px;
+}
+.aside{
+    display:flex;
+    margin-top: 20px;
+}
+.topaside h4{
+    margin-top: 30px;
+    margin-left: 410px;
+    color:#000000;
+}
+.leftaside{
+    margin-right: 80px;
+    margin-left: 45px;
+}
+.footerup h5,p{
+align-items:baseline;
+flex-direction: column;
+}
+.asd h5{
+    width:500px;
+    height:28px;
+    font-family:Mixed;
+    font-style: Mixed;
+    font-size:20px;
+    line-height:28px ;
+}
+.asd p{
+    width:506px;
+    height:84px;
+    font-family:'Roboto Slab', serif; 
+    margin-bottom: 100px;
+    text-align: justify;
+    font-size: 16px;
+    color:#555555;
+}
+.asd span{
+    color: #F46A06;
+}
+.ll{
+    background-color: #1F1C1C;
+    height:100px;
+}
+.lastleft p{
+    margin:30px 170px;
+    color:#FFFFFF;
+}
+.btnns{
+    margin-right: 160px;
+}
+footer{
+    background-color: #F46A06;
+    height:200px;
+    color: #fff;
+    max-width: 100%;
+    margin: auto;
+}
+footer .container nav a{
+    color: #fff;
+}
+.fc{
+    align-items:center;
+    flex-direction: column;
+}
+.navigation
+{
+    padding: 35px;
+}
+input[type=text]{
+    width: 30%;
+    color:rgb(102, 179, 153); 
+    padding: 12px;
+    border-radius: 10px solid black;
+    font-size: 16px;
+    color:black;
+    margin-left: 280px;
+}
+.bbtn{
+    margin-right: 320px;
+}
+.ff{
+    align-items:center;
+    flex-direction: column; 
+}
+.ff h5{
+    color:#000000;
+}
+.ff p{
+    color:#555555;
+}
+.fb{
+    padding-right:20px;
+    padding-left:20px;
+}
+.tw{
+    padding-right:20px;
+    padding-left:20px;
+}
+.inst{
+    padding-right:20px;
+    padding-left:20px;
+}
+@media(max-width:480px){
+    .container{flex-direction: column;padding:20px;}
+    .banner-right{display: none;}
+}
+.banner-left h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange; /* The typwriter cursor */
+    white-space: wrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(20, end),
+      blink-caret .95s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
