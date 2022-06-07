@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexgrid</title>
+    <style>
+
+        .parent{background: pink; display: grid;
+        /*grid-template-columns: 100px 1fr 2fr;*/
+        /*grid-template-columns: repeat(2,1fr) 300px*/
+        grid-template-columns: 100px minmax(100px,300px) 100px;
+        justify-content: space-between;
+           height:1500px;
+          align-items: center; }
+         .box{padding: 40px; border:2px solid#000;}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box">A</div>
+        <div class="box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure veritatis, ex architecto nulla esse dolorem, vitae doloribus rerum ut, eum quos expedita consectetur voluptate. Voluptatibus molestiae vel sequi, nulla quia rerum eaque ad, reiciendis obcaecati sapiente veniam molestias delectus voluptas officia harum temporibus hic. Dignissimos labore quae inventore vero animi in, nesciunt cum rem, repellat error voluptatibus adipisci deleniti? Iste porro consequatur libero ratione tempore pariatur quaerat nisi quibusdam magnam! Quae aperiam excepturi minus nobis accusantium necessitatibus veniam ut id ad optio quis, eos, vel, autem praesentium a assumenda? Vero a ipsa sequi libero molestiae fugit, officia maxime debitis perferendis?</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+    </div>
+</body>
+</html>
